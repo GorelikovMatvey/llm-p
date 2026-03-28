@@ -167,7 +167,7 @@ uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 После запуска приложения интерфейс Swagger отображает все доступные эндпоинты.
 
-![Swagger UI](../../Desktop/llm-p/screenshots/01_swagger_ui.png)
+![Swagger UI](screenshots/01_swagger_ui.png)
 
 ---
 
@@ -175,7 +175,7 @@ uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 Запрос с email формата `student_gorelikov@email.com` и паролем.
 
-![Регистрация](../../Desktop/llm-p/screenshots/2_register.png)
+![Регистрация](screenshots/2_register.png)
 
 ---
 
@@ -183,7 +183,7 @@ uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 Отправить `username` (email) и `password`. В ответе возвращается `access_token`.
 
-![Логин](../../Desktop/llm-p/screenshots/3_login.png)
+![Логин](screenshots/3_login.png)
 
 ---
 
@@ -191,7 +191,7 @@ uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 Нажать кнопку **Authorize** в правом верхнем углу и вставить полученный токен.
 
-![Authorize](../../Desktop/llm-p/screenshots/4_authorize.png)
+![Authorize](screenshots/4_authorize.png)
 
 ---
 
@@ -199,7 +199,7 @@ uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 Возвращает данные текущего авторизованного пользователя.
 
-![Профиль](../../Desktop/llm-p/screenshots/5_me.png)
+![Профиль](screenshots/5_me.png)
 
 ---
 
@@ -207,7 +207,7 @@ uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 Отправить `prompt` к языковой модели. Ответ сохраняется в истории диалога.
 
-![Чат](../../Desktop/llm-p/screenshots/6_chat.png)
+![Чат](screenshots/6_chat.png)
 
 ---
 
@@ -215,7 +215,7 @@ uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 Возвращает все сообщения текущего пользователя в хронологическом порядке.
 
-![История](../../Desktop/llm-p/screenshots/7_history.png)
+![История](screenshots/7_history.png)
 
 ---
 
@@ -223,7 +223,7 @@ uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 Очищает всю историю диалога текущего пользователя.
 
-![Удаление истории](../../Desktop/llm-p/screenshots/8_delete.png)
+![Удаление истории](screenshots/8_delete.png)
 
 ---
 
