@@ -11,3 +11,4 @@ wheels/
 .venv/
 *.pyc
 app.db
+.idea/
